@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-container">
+            <div class="todo-list">
+                <h2>My to-do List</h2>
+                <button id="add-task-btn" class="add-btn">Add Task</button>
+                <div id="tasks-container">
+                  
+                </div>
+            </div>
+            
+            <div id="task-form-container" class="task-form-container hidden">
+                <div class="task-form">
+                    <h2>Enter Task</h2>
+                    <input type="text" id="task-input" placeholder="Enter your task here">
+                    
+                    <h3>Select Date and Time:</h3>
+                    <input type="datetime-local" id="task-datetime">
+                    
+                    <div class="form-buttons">
+                        <button id="save-task-btn" class="save-btn">Save</button>
+                        <button id="clear-task-btn" class="clear-btn">Clear</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="ap">Created By - Arbaj Patel</h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
